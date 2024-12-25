@@ -1,10 +1,10 @@
 # Databricks notebook source
 from pyspark.sql import SparkSession
 
-sourceConnectionString = "mongodb://democosmosmongodb:WFoP8mcNcPyzra4R8eilb9PH4zPvZEtgMBUdPlEzMM2yMKR7Tz22M2nuFLC4l6awetQJPhgtHEARACDbeAFhDQ==@democosmosmongodb.mongo.cosmos.azure.com:10255/?ssl=true&retrywrites=false&replicaSet=globaldb&maxIdleTimeMS=120000&appName=@democosmosmongodb@"
+sourceConnectionString = ""
 sourceDb = "demomongodb"
 sourceCollection =  "demomongocollection"
-targetConnectionString = "mongodb://democosmosmongodb:WFoP8mcNcPyzra4R8eilb9PH4zPvZEtgMBUdPlEzMM2yMKR7Tz22M2nuFLC4l6awetQJPhgtHEARACDbeAFhDQ==@democosmosmongodb.mongo.cosmos.azure.com:10255/?ssl=true&retrywrites=false&replicaSet=globaldb&maxIdleTimeMS=120000&appName=@democosmosmongodb@"
+targetConnectionString = ""
 targetDb = "demotarget"
 targetCollection =  "demotgtcollection"
 
