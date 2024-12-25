@@ -2,7 +2,7 @@
 # Set configuration settings
 config = {
   "spark.cosmos.accountEndpoint": "https://democosmosnosql.documents.azure.com:443/",
-  "spark.cosmos.accountKey": "lRzLNbbsfXgSI4Y7cl6GAqbXITP1GgcNWqRU28MzBVjLJxDBf34rYEmWf9dazOoOHXH56ZZtprHQACDbtMW3Sg==",
+  "spark.cosmos.accountKey": "",
   "spark.cosmos.database": "cosmicworks",
   "spark.cosmos.container": "products"
 }
@@ -117,7 +117,7 @@ employees = (
 
 config = {
   "spark.cosmos.accountEndpoint": "https://democosmosnosql.documents.azure.com:443/",
-  "spark.cosmos.accountKey": "lRzLNbbsfXgSI4Y7cl6GAqbXITP1GgcNWqRU28MzBVjLJxDBf34rYEmWf9dazOoOHXH56ZZtprHQACDbtMW3Sg==",
+  "spark.cosmos.accountKey": "",
 #   "spark.cosmos.database": "cosmicworks",
 #   "spark.cosmos.container": "employees"
 }
