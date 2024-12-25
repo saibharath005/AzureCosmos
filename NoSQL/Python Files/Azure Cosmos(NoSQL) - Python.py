@@ -3,7 +3,7 @@ import os
 
 settings = {
     'host': os.environ.get('ACCOUNT_HOST', 'https://democosmosnosql.documents.azure.com:443/'),
-    'master_key': os.environ.get('ACCOUNT_KEY', 'lRzLNbbsfXgSI4Y7cl6GAqbXITP1GgcNWqRU28MzBVjLJxDBf34rYEmWf9dazOoOHXH56ZZtprHQACDbtMW3Sg=='),
+    'master_key': os.environ.get('ACCOUNT_KEY', ''),
     'database_id': os.environ.get('COSMOS_DATABASE', 'ToDoList'),
     'container_id': os.environ.get('COSMOS_CONTAINER', 'Items'),
 }
